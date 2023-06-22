@@ -12,8 +12,8 @@ public class StartApplication {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "Howdy Folks..Welcome to Devops Coaching by Coach AK!");
-        model.addAttribute("msg", "Hello All..We are testing springboot deployment with Helm and Jenkins Pipeline!!!!");
+        model.addAttribute("title", "Howdy Folks..Welcome to Devops Coaching by Kalkey Training!");
+        model.addAttribute("msg", "Hello All..We are testing springboot deployment on AWS EKS with Helm and Jenkins Pipeline!!!!");
         return "index";
     }
 
